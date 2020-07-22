@@ -32,7 +32,7 @@ There isn't an official prescribed order for tackling the problems, though a sub
 
  [x] 1. `single_number`
  [x] 2. `moving_zeroes`
- [] 3. `product_of_all_other_numbers`
+ [x] 3. `product_of_all_other_numbers`
  [] 4. `sliding_window_max`
  [] 5. `eating_cookies`
 
