@@ -18,10 +18,11 @@ def product_of_all_other_numbers(arr):
         while subindex < len(arr):
             # check if subindex is not at the same position as index
             if subindex != index:
-                # if it is, assign new value of product to equal product * value of subindex in the array
+                # if not, assign new value of product to equal current product * value in subindex position
                 product *= arr[subindex]
             # increment subindex
             subindex += 1
+        # when subindex is at the end of list    
         # append new product to the final product_array list
         product_array.append(product)
         # then increment index
@@ -31,7 +32,11 @@ def product_of_all_other_numbers(arr):
     # return final product list
     return product_array
 
-
+#                    i
+#              si
+# arraylist = [1, 2, 3, 4, 5]
+# product: 1
+# product_list = [120, 60, 40, ]
 
 
 if __name__ == '__main__':
